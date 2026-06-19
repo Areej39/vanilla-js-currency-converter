@@ -1,0 +1,132 @@
+/* style.css - currency-converter */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.converter {
+    background: #fff;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.converter h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input,
+select {
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #222;
+}
+
+@media (max-width: 768px) {
+    .converter {
+        max-width: 350px;
+        padding: 20px;
+    }
+
+    .converter h2 {
+        font-size: 1.5rem;
+    }
+
+    input,
+    select,
+    button {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 15px;
+    }
+
+    .converter {
+        width: 100%;
+        padding: 18px;
+        border-radius: 10px;
+    }
+
+    .converter h2 {
+        font-size: 1.3rem;
+    }
+
+    input,
+    select,
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .result {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .converter {
+        padding: 15px;
+    }
+
+    .converter h2 {
+        font-size: 1.1rem;
+    }
+
+    input,
+    select,
+    button {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .result {
+        font-size: 0.9rem;
+    }
+}
