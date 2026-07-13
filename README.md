@@ -72,3 +72,5 @@ The application uses predefined exchange rates stored in a JavaScript object. Th
 Areej Fatima
 
 GitHub: https://github.com/Areej39
+
+Live Demo: https://areej39.github.io/vanilla-js-currency-converter/
